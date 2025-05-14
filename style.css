@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     justify-content: center;
@@ -23,6 +24,13 @@ body{
     box-sizing: border-box;
 }
 
+.message{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
 .form-container button{
     padding: 10px;
     width: 100%;
@@ -31,6 +39,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 .message.sucess{
 
